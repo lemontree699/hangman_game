@@ -6,7 +6,7 @@ Hangman game的介绍与规则：https://en.wikipedia.org/wiki/Hangman_(game)
 
 玩家如果输入的不是字母，或者输入了之前猜过的字母，会触发警告，玩家共有3次触发警告的机会。若超过了这个数目，直接扣除一次猜字母的机会。
 
-游戏共有两种模式：有提示（hangman）与无提示（hangman_with_hints），可以在函数中进行切换：
+游戏共有两种模式：无提示（hangman）与有提示（hangman_with_hints），可以在函数中进行切换：
 ```python
 if __name__ == "__main__":
     # pass
